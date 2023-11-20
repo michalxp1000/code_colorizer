@@ -1,0 +1,36 @@
+/*Biblioteka css do kolorowania kodu*/
+
+:root{
+	--commentcolor: green;
+	--blockcolor: red;
+	--stringcolor: darkcyan;
+	--keywordcolor: blue;
+	--numbercolor: purple;
+}
+
+/*Blok, np. html*/
+bk{
+	color: var(--blockcolor);
+	font-weight: bold;
+}
+
+/*Komentarz*/
+cm{
+	color: var(--commentcolor);
+}
+
+/*Łańcuch */
+str{
+	color: var(--stringcolor);
+	font-style: italic;
+}
+
+/*Słowo kluczowe*/
+kw{
+	color: var(--keywordcolor);
+}
+
+/*Liczba*/
+nm{
+	color: var(--numbercolor);
+}
